@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="travel_lab.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:travel_lab"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="369.333">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,49,0">
+        <Button x:Name="create_trip_button" Content="Create New Trip" HorizontalAlignment="Left" Margin="87,154,0,0" VerticalAlignment="Top" Height="40" Width="161" Click="create_new_trip_Click"/>
+        <Button x:Name="view_trip_button" Content="View Existing Trip" HorizontalAlignment="Left" Margin="87,199,0,0" VerticalAlignment="Top" Height="40" Width="161" Click="view_existing_trip_button_Click"/>
+        <Button x:Name="Add_profile_button" Content="Add Profile" HorizontalAlignment="Left" Margin="87,244,0,0" VerticalAlignment="Top" Width="161" Click="Add_profile_button_Click"/>
+
+    </Grid>
+</Page>
